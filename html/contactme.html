@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../script.js">
+</head>
+<body class="cmpbody">
+    <h1 class="cmp">Contact <span class="me">Me</span></h1>
+    <div class="container">
+        <div class="social"> <h2 class="h2s">Socials</h2>
+            <img src="../assets/GitHub-Mark.png" alt="github logo" 
+            width="50" 
+            height="50">
+            <a target="_blank" href="https://github.com/dylandotanthony">My Github</a>
+            <img src="../Assets/linkedin.png" alt="li_logo"
+            width="50"
+            height="50">
+            <a target="_blank" href="https://www.linkedin.com/in/dylanstalcar/">My LinkedIn</a>
+            <img src="../Assets/instagram.png" alt="li_logo"
+            width="50"
+            height="50">
+            <a target="_blank" href="https://www.instagram.com/dylandotanthony/">My TikTok</a>
+            <img src="../Assets/tiktok.png" alt="tiktok_logo"
+            width="50"
+            height="50">
+            <a target="_blank" href="https://vm.tiktok.com/ZTdp9R96J/">My TikTok</a>
+        </div>
+        <form action="/process" method="post">
+            <h2 class="h2f">Fill Me out</h2>
+            <div>
+                <label>Name: </label>
+                <input type="text" name="name" 
+                placeholder="Your name..." >
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="text" name="email" 
+                placeholder="Your email..." >
+            </div>
+            <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number...">
+            
+            </div>
+            <label for="textarea">Message:</label>
+            <div>
+                <textarea name="textarea" cols="30" rows="5" 
+                id="textarea" placeholder="Your Message">
+                </textarea>
+            </div>
+            <br>
+            <div class="submit">
+                <input type="submit" value="Send Message!" >
+                </div>
+        </form>
+    </div>
+</body>
+</html>

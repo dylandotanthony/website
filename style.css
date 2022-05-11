@@ -1,0 +1,79 @@
+.submit{
+    text-align: center;
+}
+.container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+div.social {
+    /*justify-content: center;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    display: inline-block;*/
+    font-family: "Gill Sans", sans-serif;
+    width: 175px;
+    margin: 25px;
+    text-align: center;
+    
+    
+}
+form{
+    /*position: absolute;
+    top: 60%;
+    left: 60%;
+    /*transform: translate(-50%, -50%);
+    display: inline-block;*/
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+    width: 300px;
+    margin: 25px;
+}
+
+
+.cmp{
+    color: #2596be;
+    font-family: 'Beth Ellen', cursive;
+    font-size: 100px;
+    text-align: center;
+    /*position: relative;*/
+}
+
+span.me{
+    color: black;
+    font-size: 100px;
+}
+.cmpbody{
+        background-image: url("./assets/contactmebg2.jpg");
+        background-size: cover;
+}
+
+.h2s, .h2f{
+    font-family: 'Princess Sofia', cursive;
+    font-size: 40px;
+
+}
+.aboutmebody{
+    background-image: url("./assets/pexels-thisisengineering-3913025.jpg");
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.aboutmebody{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.school1, .school2 {
+    display: flex;
+}
